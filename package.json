@@ -1,13 +1,13 @@
 {
   "name": "logsign",
   "version": "1.0.0",
-  "description": "",
+  "description": "A description of your application",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js" // Specify the start script for running your application
   },
   "keywords": [],
-  "author": "",
+  "author": "Your Name",
   "license": "ISC",
   "dependencies": {
     "ejs": "^3.1.9",
