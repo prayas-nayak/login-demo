@@ -1,0 +1,204 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box
+    }
+    
+    body{
+        height: 100vh;
+        background-color: black;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    #hero p{
+        font-weight: bolder;
+        font-size: 128px;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    #hub{
+        display: inline-block;
+        background-color: #92630d;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin-left: 40px;
+        border-radius: 30px;
+    }
+    #head1{
+        margin-top: 30px;
+        margin-left: 150px;
+    }
+    #head2{
+        display: inline-block;
+        margin-left: 450px;
+        margin-top: 30px;
+    }
+    #quote p{
+        font-size: 35px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: 50px;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    #join{
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+        padding-top: 80px;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    #footer{
+        background-color: #1B1616;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* margin-top: 100px; */
+    }
+    #footer p{
+        text-align: center;
+        font-family: 'Roboto Condensed', sans-serif;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 20px;
+    }
+
+    @media (max-width:1100px) and (min-width:750px) {
+        #hero p{
+            font-size: 100px;
+        }
+        #head2{
+            margin-left: 250px;
+        }
+        #head1{
+            margin-left: 100px;
+        }
+    }
+    @media (max-width:750px) and (min-width:550px) {
+        #hero p{
+            font-size: 70px;
+        }
+        #head2{
+            margin-left: 200px;
+        }
+        #head1{
+            margin-left: 50px;
+        }
+        #hub{
+             margin-left: 20px;
+             border-radius: 20px;
+        }
+        #quote p{
+            font-size: 25px;
+        }
+    }
+    
+    @media (max-width:550px) and (min-width:350px) {
+        #hero p{
+            font-size: 55px;
+        }
+        #head2{
+            margin-left: 150px;
+        }
+        #head1{
+            margin-top: 50px;
+            margin-left: 50px;
+        }
+        #hub{
+             margin-left: 20px;
+             border-radius: 15px;
+        }
+        #quote p{
+            font-size: 20px;
+        }
+        #join{
+            margin-top: 90px;
+            font-size: 25px;
+        }
+        .joinTexts{
+            margin: 20px;
+        }
+    }
+    @media (max-width:430px) and (min-width:326px) {
+        #hero p{
+            font-size: 45px;
+        }
+        #head2{
+            margin-left: 100px;
+        }
+        #head1{
+            margin-top: 50px;
+            margin-left: 50px;
+        }
+        #hub{
+             margin-left: 15px;
+             border-radius: 10px;
+        }
+        #quote p{
+            margin-top: 130px;
+            font-size: 20px;
+        }
+        #join{
+            margin-top: 90px;
+            font-size: 16px;
+        }
+        .joinTexts{
+            margin: 20px;
+        }
+    }
+    @media (max-width:326px) and (min-width:250px) {
+        #hero p{
+            font-size: 35px;
+        }
+        #head2{
+            margin-left: 50px;
+        }
+        #head1{
+            margin-top: 50px;
+            margin-left: 30px;
+        }
+        #hub{
+             margin-left: 10px;
+             border-radius: 10px;
+        }
+        #quote p{
+            margin-top: 130px;
+            font-size: 15px;
+        }
+        #join{
+            margin-top: 90px;
+            font-size: 16px;
+        }
+        .joinTexts{
+            margin: 20px;
+        }
+    }
+    @media (max-width:250px) and (min-width:100px) {
+        #hero p{
+            font-size: 30px;
+        }
+        #head2{
+            margin-left: 20px;
+        }
+        #head1{
+            margin-top: 50px;
+            margin-left: 20px;
+        }
+        #hub{
+             margin-left: 10px;
+             border-radius: 5px;
+        }
+        #quote p{
+            margin-top: 130px;
+            font-size: 15px;
+        }
+        #join{
+            margin-top: 90px;
+            font-size: 16px;
+        }
+        .joinTexts{
+            margin: 17px;
+        }
+    }

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signin</title>
+    <link rel="stylesheet" href="css/signin.css">
+</head>
+<body>
+    <div class="container">
+        <form action="/signinform" method="post">
+            <input type="text" name="name" placeholder="Enter your name" required>
+            <br>
+            <input type="email" name="email" placeholder="Enter your Email" required>
+            <br>
+            <input type="number" name="age" placeholder="Enter your age" required>
+            <br>
+            <input type="text" name="userid" placeholder="set your userid" required>
+            <br>
+            <input type="password" name="password" placeholder="set your Password" required>
+            <br>
+            <input type="submit">
+        </form>
+        <p>Already have a account <a href="/login">Login Now</a></p>
+    </div>
+</body>
+</html>

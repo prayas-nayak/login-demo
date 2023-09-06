@@ -1,0 +1,25 @@
+*{
+margin:0;
+padding:0;
+box-sizing: border-box
+}
+body{
+    background-color: black;
+    color: white;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    height: 80%;
+    width: 90%;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+form{
+    width: 95%;
+    position: fixed;
+    bottom: 30px;
+}
